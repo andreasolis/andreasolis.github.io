@@ -1,0 +1,257 @@
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.rating {
+  direction: rtl;
+  font-size: 17px;
+  unicode-bidi: bidi-override;
+  position: relative;
+}
+.rating span.star {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+.rating span.star:hover {
+  cursor: pointer;
+}
+.rating span.star:before {
+  color: #F9C8D3;
+  content: "\f006";
+}
+
+.rating span.star:hover:after {
+  direction: ltr;
+  content: attr(title);
+  position: absolute;
+  left: 0;
+  bottom: -22px;
+  white-space: nowrap;
+  font: normal 14px/normal Arial, Helvetica, sans-serif;
+}
+
+.ratings {
+  width: 85px;
+  height: 17px;
+  display: inline-block;
+  position: relative;
+}
+.ratings:before, .ratings:after {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ratings:before {
+  color: #F9C8D3;
+  content: "\f006\f006\f006\f006\f006";
+}
+.ratings:after {
+  color: E49A05;
+  content: "\f005\f005\f005\f005\f005";
+  overflow: hidden;
+}
+
+.ratings.one:after {
+  content: "\f005";
+}
+
+.ratings.onehalf:after {
+  content: "\f005\f089";
+}
+
+.ratings.two:after {
+  content: "\f005\f005";
+}
+
+.ratings.twohalf:after {
+  content: "\f005\f005\f089";
+}
+
+.ratings.three:after {
+  content: "\f005\f005\f005";
+}
+
+.ratings.threehalf:after {
+  content: "\f005\f005\f005\f089";
+}
+
+.ratings.four:after {
+  content: "\f005\f005\f005\f005";
+}
+
+.ratings.fourhalf:after {
+  content: "\f005\f005\f005\f005\f089";
+}
+
+.header1 {font-family: 'Amiri', serif; }
+
+body {background-color: 595A5D;}
+
+.card-block{background-color: 868689;}
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+body {
+  font-family: 'Droid Serif', serif;
+  font-size: 16px;
+  background: #868689;
+  color: #fff;
+}
+cite {
+  font-style: normal;
+}
+.quote {
+	margin: 30px;
+	text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.line-through {
+	display: block;
+	position: relative;
+	border-bottom: 2px solid #fff;
+	height: 15px;
+}
+.line-through span {
+	position: absolute;
+	display: inline-block;
+	background: #868689;
+	width: 200px;
+	margin-left: -100px;
+	line-height: 30px;
+}
+.stripe-border {
+	background: linear-gradient(
+		to bottom,
+		#fff,
+		#fff 25%,
+		#868689 25%,
+		#868689
+	);
+	background-size: 100% 8px;
+}
+.stripe-border blockquote {
+  background: #868689;
+	margin: 0 10px;
+	padding: 30px;
+	font-size: 18px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.card-block {border-color: #868689;}
+
+.bar {
+
+  background-color: #E6B508;
+  height: 100%;
+}
+
+.pricing {background-color:red !important; }
+
+.card {border:none;}
+
+.bg-primary {background-color: #3e454c!important;}
+
+.card-footer {background-color:#868689;}
+
+.fa {color: white;}
+
+
+
+.display-1 {
+  font-size:20px;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.display-3 {text-shadow: black 0.1em 0.1em 0.2em;}
+
+.btn-lg {background-color: #090963;border-color: #090963}
+
+.main-image {
+    height:100%;
+    width:100%;
+    background: url("https://www.barratthomes.co.uk/globalassets/london/tactical-messages/homepage-tms/hp_images_1x1_722x481_soho.jpg") no-repeat center;
+    background-size: cover;
+    position:relative;
+}
+
+.text-container {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+
+section{
+  padding-top: 100px;
+  padding-bottom: 100px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #1FD9A9;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1FD9A9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    font-style:bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #0D8B6B}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
